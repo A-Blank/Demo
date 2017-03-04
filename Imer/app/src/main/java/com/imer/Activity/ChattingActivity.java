@@ -5,6 +5,7 @@ import android.content.BroadcastReceiver;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -51,6 +52,7 @@ public class ChattingActivity extends Activity implements View.OnClickListener{
     private MyDatabaseHelper dbHelper;
     private SharedPreferences prefs;
     private ImerDB imerDB;
+    private Receiver receiver=new Receiver();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,17 +72,25 @@ public class ChattingActivity extends Activity implements View.OnClickListener{
         username=prefs.getString("username","");
         mDatas=imerDB.loadMessage(toUserName);
 
+        IntentFilter filter=new IntentFilter();
+        filter.addAction("com.imer.Chatting");
+        this.registerReceiver(receiver,filter);
+
         mListView= (ListView) findViewById(R.id.lv_msg);
 
         /**
          * 设置ListView自动滚动到最后一条item
          */
-//        mListView.setTranscriptMode(AbsListView.TRANSCRIPT_MODE_ALWAYS_SCROLL);
+        mListView.setTranscriptMode(AbsListView.TRANSCRIPT_MODE_ALWAYS_SCROLL);
+        mListView.setSelection(mDatas.size()-1);
         /**
          * // 设置ListView滑动条不可见
          */
         mListView.setVerticalScrollBarEnabled(false);
-        mListView.setStackFromBottom(true);
+        /**
+         * 设置listvie从下至上加载
+         */
+//        mListView.setStackFromBottom(true);
 
 
         mAdapter=new MessageListViewAdapter(this,mDatas);
@@ -150,15 +160,22 @@ public class ChattingActivity extends Activity implements View.OnClickListener{
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        this.unregisterReceiver(receiver);
         ActivityController.removeActivity(this);
     }
 
     class Receiver extends BroadcastReceiver{
 
+        public Receiver(){
+
+        }
+
         @Override
         public void onReceive(Context context, Intent intent) {
+            Log.i("TAG", "onReceive: ");
             if(ActivityController.isActivityInStack(ChattingActivity.this)){
                 mDatas.add((ChatMessage) intent.getSerializableExtra("chatmessage"));
+                Log.i("TAG", "onReceive: "+mDatas.get(mDatas.size()-1).getMsg());
                 mAdapter.notifyDataSetChanged();
             }
         }

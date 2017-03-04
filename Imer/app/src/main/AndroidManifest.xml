@@ -47,6 +47,7 @@
 
         <service android:name=".Service.JMService"/>
 
+
         <!-- Required SDK 核心功能-->
         <!-- 可配置android:process参数将PushService放在其他进程中 -->
         <service android:name="cn.jpush.android.service.PushService" android:exported="false" android:enabled="true">

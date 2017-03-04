@@ -50,6 +50,8 @@ public class JMService extends Service {
         imerDB=ImerDB.getInstance(this);
         prefs = PreferenceManager.getDefaultSharedPreferences(this);
         JMessageClient.registerEventReceiver(this);
+
+
         Log.i("TAG","Service Create");
 
 
