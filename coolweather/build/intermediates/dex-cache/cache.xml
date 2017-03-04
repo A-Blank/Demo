@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\My Files\Codes\coolweather\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6017017bdcb4eb165c49a4b2f35b7d0d98604379">
+        <dex dex="C:\My Files\Codes\coolweather\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_17886367038d30e0a2644d0658e3b43412c9a378\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\My Files\Codes\coolweather\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\My Files\Codes\coolweather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_3f811078ddc0b3e93b7ec40a4acaa97fcda58cbb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\My Files\Codes\coolweather\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\My Files\Codes\coolweather\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_e1bd4877e9fed962f4345d1bd404b170f454e695\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\My Files\Codes\coolweather\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\My Files\Codes\coolweather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_3e85a46188fe82e5b7c65c74c963e111750d900a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\My Files\Codes\coolweather\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\My Files\Codes\coolweather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_dddea98d9445b79e1e3919a845baca11a2c997e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\My Files\Codes\coolweather\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\My Files\Codes\coolweather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_f9214496101a77374f0844701468fdec41a4da22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files\Android\Android SDK\android-sdk_r24.4.1-windows\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\My Files\Codes\coolweather\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_f3df9bec21d3ff1c961d03dfac04435650b329ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\My Files\Codes\coolweather\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="87726ceb59ee24cc431c6d995cb0f74f5e4242bc">
+        <dex dex="C:\My Files\Codes\coolweather\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_797ce6e59b53b6f12f29c39c52a4bec6dae844e4\classes.dex" />
+    </item>
+
+</items>

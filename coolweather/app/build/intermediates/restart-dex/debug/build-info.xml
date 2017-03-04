@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="9042251063214"
+    token="-3919087734790464780"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="338" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="53" />
+    <task
+        name="verifier"
+        duration="5" />
+
+    <artifact
+        location="C:\My Files\Codes\coolweather\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="6365564902804"
+        verifier="MANIFEST_FILE_CHANGE" >
+        <artifact
+            location="C:\My Files\Codes\coolweather\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="8767895502988"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\My Files\Codes\coolweather\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="9042251063214"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\My Files\Codes\coolweather\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="18382569565920"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\My Files\Codes\coolweather\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
